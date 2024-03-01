@@ -1,0 +1,242 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+    text-align:justify;
+    margin-top: 55px;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
+    overflow: hidden;         /* Ensure the navbar holds its child elements */
+    font-size: 22px;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: grey;
+}
+
+header .logo {
+    float: left;               /* Float the logo to the left */
+}
+
+header a {
+    float: right;             /* Float menu links to the right */
+    display: block;           /* Change the links to blocks */
+    color: #000000;          /* Make the links white */
+    text-align: center;       /* Center the text within the link blocks */
+    padding: 14px 16px;       /* Add padding */
+    text-decoration: none;    /* Remove underlines */
+}
+
+header a:hover {
+    color: green;
+}
+
+main {
+    margin: 0px 200px;
+}
+
+.title {
+    font-size: 45px;
+    margin: 35px 0px 20px 0px;
+}
+
+#about { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    margin: 150px 0px 50px 0px;
+}
+
+#about-content {
+
+}
+
+#about-image {
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+#about-title {
+    font-size: 25px;
+}
+
+#about-description {
+    font-size: 15px;   
+    line-height: 40px;
+    margin: 25px 0px; 
+}
+
+#about-skills {
+    font-size: 25px;   
+    line-height: 40px;
+}
+
+.project { 
+    margin-right: 2%;
+    width: 25%;
+    padding: 5px;
+    display: inline-block;
+    background-color: grey;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.project:last-child {
+    margin: 0%;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+}
+
+.project-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.project-name {
+    font-size: 25px;    
+}
+
+.project-description {
+    font-size: 15px;   
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.project-learn-more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: grey;
+    font-size: 20px;
+}
+
+.company { 
+    margin-right: 2%;
+    width: 25%;
+    height: 20%;
+    padding: 5px;
+    display: inline-block;
+    background-color: grey;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.company:last-child {
+    margin: 0%;
+}
+
+.company-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.company-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.company-name {
+    font-size: 25px;  
+}
+
+.company-description {
+    font-size: 15px;   
+    line-height: 25px;
+}
+
+.school { 
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: grey;
+    border-radius: 12px;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+}
+
+.school:last-child {
+    margin: 0%;
+}
+
+.school-content {
+
+}
+
+.school-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin-right: 20px;
+}
+
+.school-name {
+    font-size: 25px;  
+    margin-bottom: 15px; 
+}
+
+.school-description {
+    font-size: 15px;   
+    line-height: 25px;
+}
+
+.blog {
+    margin-right: 2%;
+    width: 25%;
+    display: inline-block;
+    background-color: grey;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.blog:last-child {
+    margin-right: 0%;
+}
+
+.blog-image {
+    display: block;
+    height: 70Px;
+    width:70px;
+    margin: 0px;
+}
+
+.blog-title {
+    font-size: 25px;
+    margin: 20px 20px 0px 20px;
+}
+
+.blog-content {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px 20px 20px 20px;
+}
+
+#footer-container {
+    text-align: center;
+    padding: 50px 0px 120px 0px;
+}
+
+.footer-image {
+    height: 50px;
+    padding: 0px 20px;
+}
